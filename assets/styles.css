@@ -1,6 +1,6 @@
 :root {
     --primary-color: #272727;
-    --secondary-color: #747474;
+    --secondary-color: #8c8c8c;
     --tertiary-color: #731010;
 }
 
@@ -32,15 +32,22 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 56px;
     color: var(--secondary-color);
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header h2 {
+    font-weight: bold;
+    font-size: 26px;
+    color: var(--secondary-color);
+    margin: 0;
 }
 
 header a {
     color: var(--secondary-color);
     text-decoration: none;
+    transition: all ease-in-out 0.15s;
 }
 
 header nav {
@@ -63,14 +70,27 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: var(--tertiary-color);
+    color: #b0b0b0;
     border-radius: 15px;
     /* text-shadow: none; */
 }
 
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: var(--primary-color);
-    margin: 0;
+/* About Section */
+
+.intro h1 {
+    line-height: 1.7;
+    color: var(--secondary-color);
+    font-size: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.intro p {
+    line-height: 1.7;
+    color: var(--secondary-color);
+    width: 70%;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
 }
