@@ -114,3 +114,11 @@ header nav ul li a:hover {
     margin-top: 30px;
     text-align: center;
 }
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: var(--secondary-color);
+}
