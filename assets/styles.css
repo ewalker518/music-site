@@ -104,3 +104,13 @@ header nav ul li a:hover {
 }
 
 /* Contact Section */
+
+.contact {
+    line-height: 1.7;
+    color: var(--secondary-color);
+    width: 70%;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
