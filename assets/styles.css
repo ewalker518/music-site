@@ -1,6 +1,6 @@
 :root {
     --primary-color: #272727;
-    --secondary-color: #8c8c8c;
+    --secondary-color: #d4d4d4;
     --tertiary-color: #731010;
 }
 
@@ -70,7 +70,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #b0b0b0;
+    color: #ffffff;
     border-radius: 15px;
     /* text-shadow: none; */
 }
